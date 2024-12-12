@@ -23,6 +23,7 @@ const Signup =() => {
 
         if(sendSign.ok){
             alert("Registration successfull");
+            Navigate("/")
             console.log(response);
         }else{
             alert("Registration failed");
